@@ -80,6 +80,19 @@ ul,li{
 .foods-wrap{
     flex:1;
 }
+.food-item .text{
+    padding-left:14px;
+    height:26px;
+    line-height:26px;
+    border-left:2px solid #d9dde1;
+    font-size:12px;
+    color:rgba(147,153,159,);
+    background:#f3f5f7;
+}
+food-item{
+    display:flex;
+    margin:18px;
+}
 .menu-item{
     display:table;
     width:56px;
