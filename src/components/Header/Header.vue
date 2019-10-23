@@ -6,13 +6,18 @@
             <div class="tab-item"><router-link tag="a"  :to="{name:'SellerLink'}">商家</router-link></div>
         </div>
         <div>
-            <router-view></router-view>
+            <router-view :seller="seller"></router-view>
         </div>
     </div>
 </template>
 <script>
 
     export default{
+            props:{
+                seller:{
+                    type:Object
+                }
+            }
     }
 </script>
 <style >

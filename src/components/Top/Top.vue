@@ -194,7 +194,7 @@ h1{
     border-radius:10px;
     background:rgba(0,0,0,0.2);
     text-align:center;
-  
+   cursor:pointer;
 
 }
 .count{
@@ -215,7 +215,7 @@ h1{
     overflow:hidden;
     text-overflow:ellipsis;
     background:rgba(7,17,27,0.2);
-
+    cursor:pointer;
 }
 .bulletin-text{
     vertical-align:top;

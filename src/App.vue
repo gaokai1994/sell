@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <top :seller="seller"></top>
-    <app-header></app-header>
+    <app-header :seller="seller"></app-header>
   </div>
 </template>
 
